@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omicron's Banner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="banner">
+      <div>
+        <h2>Welcome to the Omicron Technology</h2>
+        <h3>Empowering the Digital Future with Omicron Technology.</h3>
+        <h4>Mission:</h4>
+        <p>Omicron's mission is to empower businesses and individuals by providing innovative digital solutions that drive growth, enhance productivity, and transform the way they operate.</p>
+        <h4>Vision:</h4>
+        <p>Omicron's vision is to be the leading provider of cutting-edge technology solutions, helping our clients achieve their goals and stay ahead in the ever-evolving digital landscape.</p>
+        <h4>Goals:</h4>
+        <ul>
+          <li>Deliver exceptional digital experiences that exceed client expectations</li>
+          <li>Continuously innovate and adapt to the changing technology landscape</li>
+          <li>Foster a culture of collaboration, continuous learning, and excellence</li>
+          <li>Positively impact the communities we serve through our solutions and initiatives</li>
+        </ul>
+      </div>
+      <img src="avatar.jpeg" />
+    </section>
+    <section class="sec">
+      <h2>Web Designing and Development</h2>
+      
+      <p>
+        At Omicron Technology, we are passionate about web design and development and our mission is to transform ideas
+        into exeptional digital experiences.
+        with our experties and cuting-edge technolgy, we aim to create websites that not only captivate users but also drive meaningful results for businesses.
+      </p>
+      <h2>Mobile App Development</h2>
+      
+      <p>
+        In today's mobile-driven world having a powerful and engaging mobile app is essential for businesses to thrive. At Omicron technolgy,we specialize in
+        creating cutting-edge mobile applications that take your business to new heights.
+      </p>
+      <h2>Security Camera Installations</h2>
+      
+      <p>
+        At Omicron technology, We undersatnd the importance of security and offer trusted security camera installation services to give you peace of mind  protecting what matters most trusted security Camera Installation services by Omicron technolgy.
+      </p>
+      <h2>Desktop App Development</h2>
+      
+      <p>
+        In today Desktp applications are essential for businesses to thrive. At Omicron technolgy, we specialize in
+        creating cutting-edge Desktop applications that take your business to new heights.
+      </p>
+      <h2>Graphics design</h2>
+      <p>
+       
+    Designing logos, branding, and visual identity,
+    Creating marketing materials such as flyers, posters, and advertisements,
+    Developing the visual layout and user interface for websites and mobile apps and
+    Producing infographics, data visualizations, and technical illustrations
+ </p>
+    </section>
+    <div class="foot">
+      <footer class="top">
+        <img src="image/im/1.png" />
+        <div class="links">
+          <div>
+            <h2>Omicron Works On</h2>
+            <a>Website</a>
+            <a>Mobile App</a>
+            <a>Desktop App</a>
+            <a>Graphics design & others</a>
+          </div>
+          <div>
+            <h2>Find On</h2>
+            <a onclick="window.open('tel:+251985576273')">(+251)985576273</a>
+            <a onclick="window.open('tel:+251960461597')">(+251)960461597</a>
+            <a href="https://haileliulmulu.github.io/codewithhl.github.io" target="https://haileliulmulu.github.io/codewithhl.github.io">Github</a>
+            <a href="mailto:haileliulmulu27@gmail.com">Gmail</a>
+            <a href="https://t.me/Liulmekonen" target="https://t.me/Liulmekonen">Telegram</a>
+          </div>
+        </div>
+      </footer>
+      <div class="foot">
+        <footer class="bottom">
+          <div class="legal">
+            <span> © Omicron Technology. 2024 All rights reserved </span>
+            <a href="#" onclick="showPopup('license')"> License </a>
+            <a href="#" onclick="showPopup('terms')"> Terms </a>
+            <a href="#" onclick="showPopup('privacy')"> Privacy </a>
+          </div>
+          <div class="links">
+            <a href="" title="Facebook page" target=""><img src="image/facbook.png"></a>
+            <a href="https://t.me/omicrontechnology" title="Telegram account!" target="https://t.me/omicrontechnology"><img src="image/telegram.png"></a>
+            <a href="" title="Tiktok account!" target=""><img src="image/tiktok.png"></a>
+            <a href="" title="Instagram account!" target=""><img src="image/insta.png"></a>
+            <a href="https://www.linkedin.com/in/haileliul-mulu-26283a297" title="Linkdin account!" target="https://www.linkedin.com/in/haileliul-mulu-26283a297"><img src="image/link.png"></a>
+          </div>
+        </footer>
+      </div>
+  
+      <!-- Add the popup container -->
+      <div id="popup-container" class="popup-container">
+        <div class="popup-content">
+          <span class="close-button" onclick="closePopup()">&times;</span>
+          <div id="popup-content-area"></div>
+        </div>
+      </div>
+      
+    </div>
+    <script>
+      function showPopup(type) {
+  var popupContainer = document.getElementById("popup-container");
+  var popupContentArea = document.getElementById("popup-content-area");
+
+  // Set the content based on the type
+  if (type === "license") {
+    popupContentArea.innerHTML = "<h2>License</h2><p>We grant you a limited, non-exclusive license to use the Services for your personal, non-commercial purposes. You may not modify, copy, or create derivative works from the Services.</p>";
+  } else if (type === "terms") {
+    popupContentArea.innerHTML = `<h2>Terms of Service</h2> <p>By accessing or using our website, mobile apps, or other products and services you agree to the following terms:</p> <h3>Eligibility</h3> <p>You must be at least 18 years old to use our Services. If you represent an organization, you have the authority to bind that organization to these terms.</p> <h3>License</h3> <p>We grant you a limited, non-exclusive license to use the Services for your personal, non-commercial purposes. You may not modify, copy, or create derivative works from the Services.</p> <h3>User Conduct</h3> <p>You agree to comply with all applicable laws and regulations, and will not engage in unlawful or abusive behavior when using our Services.</p> <h3>Privacy</h3> <p>We take your privacy seriously. Please review our Privacy Policy to understand how we collect, use, and protect your data.</p> <h3>Intellectual Property</h3> <p>The Services, including all content, are owned by us or our licensors and are protected by intellectual property laws.</p> <h3>Termination</h3> <p>We reserve the right to suspend or terminate your access to the Services at any time. Certain sections of these terms will survive any termination or suspension.</p> <h3>Disclaimers and Liability</h3> <p>The Services are provided "as it is" without warranty. We are not liable for any indirect, special, or consequential damages arising from your use of the Services.</p> <h3>Governing Law</h3> <p>This agreement is governed by the agreement we have, and any disputes will be resolved through binding arbitration.</p> `;
+  } else if (type === "privacy") {
+    popupContentArea.innerHTML = `<h2>Privacy Policy</h2><h3>Information We Collect</h3><p>Omicron Technology collects certain personal information from our users, including name, email address, and usage data. We collect this information to provide and improve our services.</p>    <h3>How We Use Your Information</h3><p>We use the information we collect to:- Provide and maintain our products and services- Improve and develop our products and services- Communicate with you about your account and our services- Personalize your experience and deliver relevant content- Protect against fraud and ensure the security of our systems</p><h3>Sharing Your Information</h3><p>We may share your information with third-party service providers that help us operate our business. We do not sell or rent your personal information to any third parties for their own marketing purposes.</p><h3>Data Security</h3><p>Omicron Technology takes reasonable measures to protect your personal information from unauthorized access, disclosure, and misuse. However, no data transmission over the internet can be guaranteed to be 100% secure.</p><h3>Your Choices</h3><p>You can opt-out of email communications or update your preferences at any time. You also have the right to access, correct, or delete your personal information.</p><h3>Changes to this Policy</h3><p>Omicron Technology may update this privacy policy from time to time. We will notify you of any material changes by posting the updated policy on our website.</p><h3>Contact Us</h3><p>If you have any questions or concerns about our privacy practices</p>`;
+  }
+  popupContainer.style.display = "block";
+}
+
+function closePopup() {
+  var popupContainer = document.getElementById("popup-container");
+  popupContainer.style.display = "none";
+}
+    </script>
+  </body>
+</html>
